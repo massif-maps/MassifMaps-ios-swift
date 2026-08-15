@@ -3,38 +3,38 @@
 import PackageDescription
 
 let package = Package(
-    name: "CartoMobileSDK",
+    name: "MassifMaps",
     platforms: [
         .iOS(.v12)
     ],
     products: [
-        .library(name: "CartoMobileSDK", targets: ["CartoMobileSDK"]),
-        .library(name: "CartoMobileSDKCore", targets: ["CartoMobileSDK-core"]),
-        .library(name: "CartoMobileSDKLite", targets: ["CartoMobileSDK-lite"]),
+        .library(name: "MassifMaps", targets: ["MassifMaps"]),
+        .library(name: "MassifMapsCore", targets: ["MassifMaps-core"]),
+        .library(name: "MassifMapsLite", targets: ["MassifMaps-lite"]),
         .library(name: "ValhallaRouting", targets: ["ValhallaRouting"]),
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-            name: "CartoMobileSDK",
-            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.3/carto-mobile-sdk-ios-5.2.3-full.zip",
-            checksum: "fff2fd6d6cfb5d0451ee7d7b1f7ea1c84568ad81db2dd8d3ea936a1a20cc32ab"
+            name: "MassifMaps",
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-ios-6.0.0-full.zip",
+            checksum: "f29aa5e4edd796555662d0f5fec01028eddecaf3b39b16d92f538698c38bc992"
         ),
         .binaryTarget(
-            name: "CartoMobileSDK-core",
-            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.3/carto-mobile-sdk-ios-5.2.3-core.zip",
-            checksum: "e69e28589d2a7c5fe6b5e1568f22a6dd319cdd504e567974ecee98d6670c139d"
+            name: "MassifMaps-core",
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-ios-6.0.0-core.zip",
+            checksum: "537c0037b90a7d2021e24a8943ee6b16e43b670d2be5eb1a0299c13a8810873c"
         ),
         .binaryTarget(
-            name: "CartoMobileSDK-lite",
-            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.3/carto-mobile-sdk-ios-5.2.3-lite.zip",
-            checksum: "c20737b1a24edae35985c635c5b3929e057ea8d52a1e091a0b6e6f649a44e7c6"
+            name: "MassifMaps-lite",
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-ios-6.0.0-lite.zip",
+            checksum: "ccedf7369ae3bf2cef7db5746867e13557ff5a958f1b36cc6f13389f37ca881e"
         ),
         .binaryTarget(
             name: "ValhallaRouting",
-            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.3/carto-routing-ios-5.2.3.zip",
-            checksum: "d0d070d5d2001884c174c16a12cb7dcee3b45ed98d8113be5ccb8f273f607990"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-routing-ios-6.0.0.zip",
+            checksum: "cdc5c2ffcbe44261cad5b862b3cf52374b1e16b5ee30f038712ebb4437a984a5"
         ),
     ]
 )
