@@ -17,24 +17,24 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "MassifMaps",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-ios-6.0.0-full.zip",
-            checksum: "f29aa5e4edd796555662d0f5fec01028eddecaf3b39b16d92f538698c38bc992"
+            name: "CartoMobileSDK",
+            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.2/carto-mobile-sdk-ios-5.2.2-full.zip",
+            checksum: "f776d5e27b624e1d641c3d2ea1db933951fca3ec76b87f1ca84292a55ded8b11"
         ),
         .binaryTarget(
-            name: "MassifMaps-core",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-ios-6.0.0-core.zip",
-            checksum: "537c0037b90a7d2021e24a8943ee6b16e43b670d2be5eb1a0299c13a8810873c"
+            name: "CartoMobileSDK-core",
+            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.2/carto-mobile-sdk-ios-5.2.2-core.zip",
+            checksum: "c8f3825aedd7884be409191dadf8edc701aed46edaf2ba492a89dc0e628359d3"
         ),
         .binaryTarget(
-            name: "MassifMaps-lite",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-ios-6.0.0-lite.zip",
-            checksum: "ccedf7369ae3bf2cef7db5746867e13557ff5a958f1b36cc6f13389f37ca881e"
+            name: "CartoMobileSDK-lite",
+            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.2/carto-mobile-sdk-ios-5.2.2-lite.zip",
+            checksum: "55899b3599d9d6b17159cb513d80516b725b58116da2f6eacd8d9db9ae896b8e"
         ),
         .binaryTarget(
             name: "ValhallaRouting",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.0.0/massif-routing-ios-6.0.0.zip",
-            checksum: "cdc5c2ffcbe44261cad5b862b3cf52374b1e16b5ee30f038712ebb4437a984a5"
+            url: "https://github.com/Akylas/mobile-sdk/releases/download/v5.2.2/carto-routing-ios-5.2.2.zip",
+            checksum: "d7d6b97be721fe488e9af066702f4cca09e5a23b2ad552eb398054bd576c9375"
         ),
     ]
 )
