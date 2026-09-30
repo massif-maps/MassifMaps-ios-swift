@@ -18,23 +18,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MassifMaps",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.2/massif-ios-6.1.0-rc.2-full.zip",
-            checksum: "f13ecc7358c56d6ed217a7035797a0e6f90178d638dd3e5b035366d864b4f3f3"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.3/massif-ios-6.1.0-rc.3-full.zip",
+            checksum: "e4bf954406aba8691615089d1fe6b65a427deffddbaa65be49f1fd2c689b72a7"
         ),
         .binaryTarget(
             name: "MassifMaps-core",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.2/massif-ios-6.1.0-rc.2-core.zip",
-            checksum: "216f92ad0f472e7f1ffa31b36798d48a32a149edeebb38488b62f4010a89ca11"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.3/massif-ios-6.1.0-rc.3-core.zip",
+            checksum: "24979023497d48fd1da41ab0c6f2ce399cf7118aeddc4632cc89223f270a7302"
         ),
         .binaryTarget(
             name: "MassifMaps-lite",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.2/massif-ios-6.1.0-rc.2-lite.zip",
-            checksum: "79b882bc3679b1b256d713f2d33a4f051ad75c108f00d9e09330ff6f8f1f3545"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.3/massif-ios-6.1.0-rc.3-lite.zip",
+            checksum: "e7bd6d90a46ed32ae954d46b3b8b2bce7fc7da0a9032789b170db0b2746e55e1"
         ),
         .binaryTarget(
             name: "ValhallaRouting",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.2/massif-routing-ios-6.1.0-rc.2.zip",
-            checksum: "0f8e34a2980d40e52c21cfc97f4a8a4b39136646c567250d1e702ff51ff9dd57"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.0-rc.3/massif-routing-ios-6.1.0-rc.3.zip",
+            checksum: "4d09a7430192a5918b3baf97e1dac980345a4c73b39028440a351982042a4a75"
         ),
     ]
 )
