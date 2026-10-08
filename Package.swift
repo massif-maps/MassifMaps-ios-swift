@@ -18,23 +18,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MassifMaps",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.2/massif-ios-6.1.2-full.zip",
-            checksum: "7684e1ebd02e72821177fd2a2904b0130838de30fcd1ff710254cb86015c975c"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.3/massif-ios-6.1.3-full.zip",
+            checksum: "22a7d720c0c11b17bde2d270b77d7a480ef56387121e180fd40abf276ef5d051"
         ),
         .binaryTarget(
             name: "MassifMaps-core",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.2/massif-ios-6.1.2-core.zip",
-            checksum: "b8bc8a676aafeb72207b6939ce4eee9456bba267ac928837f8f92431546d7f22"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.3/massif-ios-6.1.3-core.zip",
+            checksum: "6e6a9be6a82d6a630db933102ec9ec16afff737b3fcad6c2ca1898096c20bed4"
         ),
         .binaryTarget(
             name: "MassifMaps-lite",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.2/massif-ios-6.1.2-lite.zip",
-            checksum: "0da02404629f5f641805a87673d48c823bce6c4a5994275d4b819a332ff213f6"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.3/massif-ios-6.1.3-lite.zip",
+            checksum: "279330bbb725af8a00f468db32f8c2aefb2c202a803145452f820bb9bb193da4"
         ),
         .binaryTarget(
             name: "ValhallaRouting",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.2/massif-routing-ios-6.1.2.zip",
-            checksum: "cd1c32cdf9add309a359cf0c8c02da083ca1bc161dd587ad9d25a8cc72e696e2"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.1.3/massif-routing-ios-6.1.3.zip",
+            checksum: "33fe359bf917b69e1e9989ac21f0c4f31b8e97723f35236b09979e8729c9e9b7"
         ),
     ]
 )
