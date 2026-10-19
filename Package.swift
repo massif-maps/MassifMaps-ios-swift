@@ -5,7 +5,8 @@ import PackageDescription
 let package = Package(
     name: "MassifMaps",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v12),
+        .macCatalyst(.v13)
     ],
     products: [
         .library(name: "MassifMaps", targets: ["MassifMaps"]),
@@ -18,23 +19,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MassifMaps",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.0/massif-ios-6.2.0-full.zip",
-            checksum: "aa4eb755f0d236ad2d7f285ad987f3d0a1871ba2dcbc843111c4f618877c4e4e"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-ios-6.2.1-full.zip",
+            checksum: "abd996b81ad6fc7445c55d4e1fda8f4061d707990e3f94ecbe1c53fa6c647095"
         ),
         .binaryTarget(
             name: "MassifMaps-core",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.0/massif-ios-6.2.0-core.zip",
-            checksum: "9064a68245312576853a64cf6115da2740940e11d7605a7b2d5bdd379c45f7fc"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-ios-6.2.1-core.zip",
+            checksum: "5593169c4e3c8e26d5b8bbaecffdb127bd3cf8c5dcf9f80eab7c908ee6f43ba1"
         ),
         .binaryTarget(
             name: "MassifMaps-lite",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.0/massif-ios-6.2.0-lite.zip",
-            checksum: "cd8213e7bc292a45660eb01a8a69a687b098cdc65c8249fcb1b84630118d64f5"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-ios-6.2.1-lite.zip",
+            checksum: "d4c4ac9496a56d318cb378d4edf253e1fd25409c97310a47404d3b3e044dd341"
         ),
         .binaryTarget(
             name: "ValhallaRouting",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.0/massif-routing-ios-6.2.0.zip",
-            checksum: "1823736f18f7d57c5a10adc0bc730414c1a3e3164934dc72a29e81fbb38e52bf"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-routing-ios-6.2.1.zip",
+            checksum: "46e059bed926634c291a2164c718f184eccf03cb037f32d8b47c4c43b7b8f4d2"
         ),
     ]
 )
