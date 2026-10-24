@@ -6,7 +6,7 @@ let package = Package(
     name: "MassifMaps",
     platforms: [
         .iOS(.v12),
-        .macCatalyst(.v13)
+        .macCatalyst(.v15)
     ],
     products: [
         .library(name: "MassifMaps", targets: ["MassifMaps"]),
@@ -19,23 +19,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MassifMaps",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-ios-6.2.1-full.zip",
-            checksum: "abd996b81ad6fc7445c55d4e1fda8f4061d707990e3f94ecbe1c53fa6c647095"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.3.0/massif-ios-6.3.0-full.zip",
+            checksum: "532b1cd9a15790f6caad566976089f556d699fc6ff0cb534feea5eec53683690"
         ),
         .binaryTarget(
             name: "MassifMaps-core",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-ios-6.2.1-core.zip",
-            checksum: "5593169c4e3c8e26d5b8bbaecffdb127bd3cf8c5dcf9f80eab7c908ee6f43ba1"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.3.0/massif-ios-6.3.0-core.zip",
+            checksum: "974404a766fe51dffe7ab09c519ab239c022f056b4f40d2058b539f33c7c18dd"
         ),
         .binaryTarget(
             name: "MassifMaps-lite",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-ios-6.2.1-lite.zip",
-            checksum: "d4c4ac9496a56d318cb378d4edf253e1fd25409c97310a47404d3b3e044dd341"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.3.0/massif-ios-6.3.0-lite.zip",
+            checksum: "ed5e0f9207d0378dd85d8269dc0a612e48b290888a2071027d9b9f5b3c833f76"
         ),
         .binaryTarget(
             name: "ValhallaRouting",
-            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.2.1/massif-routing-ios-6.2.1.zip",
-            checksum: "46e059bed926634c291a2164c718f184eccf03cb037f32d8b47c4c43b7b8f4d2"
+            url: "https://github.com/massif-maps/MassifMaps/releases/download/v6.3.0/massif-routing-ios-6.3.0.zip",
+            checksum: "8c95958796ca3fe4fb521f43dcf733e4d37609b70949854ec75e1f0d97b3e869"
         ),
     ]
 )
